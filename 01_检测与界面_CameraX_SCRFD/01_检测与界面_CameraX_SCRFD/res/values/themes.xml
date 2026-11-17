@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.OSAI" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#2F81F7</item>
+        <item name="colorPrimaryDark">#0B0F16</item>
+        <item name="colorAccent">#3FB950</item>
+        <item name="android:windowBackground">#0B0F16</item>
+        <item name="android:statusBarColor">#0B0F16</item>
+        <item name="android:navigationBarColor">#0B0F16</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">#E6EDF7</item>
+    </style>
+</resources>
