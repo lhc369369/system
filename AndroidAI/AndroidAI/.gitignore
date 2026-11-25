@@ -1,0 +1,17 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/app/build
+
+# 原始权重与下载的第三方仓库,体积大且可按 README 重新获取
+/_models_raw/
+
+# 本地运行截图(含个人人脸照片,不入库)
+/docs/evidence/
