@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <string name="app_name">人脸识别系统</string>
+    <string name="identify_off">识别:关</string>
+    <string name="identify_on">识别:开</string>
+    <string name="liveness_off">活体:关</string>
+    <string name="liveness_on">活体:开</string>
+    <string name="manage_faces">人脸库</string>
+    <string name="register_face">注册当前人脸</string>
+    <string name="reset_stats">清零计数</string>
+    <string name="status_detail_placeholder">摄像头与推理服务初始化中</string>
+    <string name="status_placeholder">正在启动…</string>
+    <string name="system_status">系统状态</string>
+    <style name="Theme.OSAI" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#2F81F7</item>
+        <item name="colorPrimaryDark">#0B0F16</item>
+        <item name="colorAccent">#3FB950</item>
+        <item name="android:windowBackground">#0B0F16</item>
+        <item name="android:statusBarColor">#0B0F16</item>
+        <item name="android:navigationBarColor">#0B0F16</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">#E6EDF7</item>
+    </style>
+</resources>
