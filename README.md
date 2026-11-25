@@ -39,7 +39,7 @@
 │  ├─ evidence/                01_detection_liveness.png(检测与活体运行截图)
 │  ├─ 关键代码_检测.md          SCRFD 前后处理、NMS、图像转换代码摘录
 │  └─ 分工说明.md               负责范围、实现要点与答辩问题
-└─ AndroidAI_分工提交/02_识别与注册_EdgeFace_人脸库/           # 分工二:对齐、识别与人脸库
+├─ AndroidAI_分工提交/02_识别与注册_EdgeFace_人脸库/           # 分工二:对齐、识别与人脸库
    ├─ code/                    FaceStore.kt(特征库)、FrameResult.kt(结果结构)
    ├─ model/edgeface.onnx      EdgeFace-xs(输入 1×3×112×112,输出 1×512)
    ├─ evidence/                03_dual_process_identify.png、06_registered.png
@@ -125,7 +125,7 @@
 ## 常见问题(FAQ)
 
 **Q:克隆本仓库后能否直接用 Android Studio 构建?**
-不能。本仓库为分工材料,缺少 Gradle 配置、Manifest 与推理服务等完整工程文件,请按「安装与快速启动」合入完整工程。
+不能。本仓库为分工材料,缺少 Gradle 构建配置,推理引擎等实现以代码摘录形式提供,请按「安装与快速启动」合入完整工程。
 
 **Q:检测框左右反了?**
 前置摄像头预览是镜像的,叠加层绘制时需将 x 坐标翻转为 `imageWidth - x`(`FaceOverlayView.mirrored` 已处理)。
